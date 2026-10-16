@@ -13,14 +13,16 @@ COPY frontend/ ./
 RUN npm run build
 # 产物在 dist/；frontend/public/images 由 Vite 自动复制进 dist
 
-# ========== 阶段 2：安装后端生产依赖 ==========
+# ========== 阶段 2：安装后端依赖 ==========
 # better-sqlite3 含原生模块：优先下载预编译二进制，下载失败时本地编译（需要 python3/make/g++）
+# 注意必须装完整依赖（含 devDependencies）：src/services/updater.js 运行时 require('axios')，
+# 而 axios 在 devDependencies 里，--omit=dev 会导致服务启动即崩。
 FROM node:20-alpine AS backend-deps
 RUN apk add --no-cache python3 make g++
 WORKDIR /app/backend
 
 COPY backend/package.json backend/package-lock.json ./
-RUN npm ci --omit=dev --registry=https://registry.npmmirror.com
+RUN npm ci --registry=https://registry.npmmirror.com
 
 # ========== 阶段 3：运行镜像 ==========
 FROM node:20-alpine
