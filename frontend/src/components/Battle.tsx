@@ -121,7 +121,7 @@ const Battle: React.FC = () => {
         setCelebrationData({
           expReward: rewardExp || 0,
           goldReward: rewardGold || 0,
-          leveledUp: !!res.data.levelUp?.leveledUp,
+          leveledUp: !!res.data.levelUp,
           newLevel: res.data.levelUp?.newLevel || 0
         });
         setShowCelebration(true);
