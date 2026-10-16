@@ -90,7 +90,8 @@ const ShopAndBackpack: React.FC<Props> = ({ defaultTab = 'shop', viewMode = 'all
     setLoading(true);
     try {
       const res = await petAPI.feedPet({ item_id: itemId });
-      message.success(res.data.levelUp ? '🎉 恭喜，宠物升级了！' : '投喂成功！');
+      // 后端 levelUp 恒为对象（未升级时为 { leveledUp: false }），必须判 .leveledUp
+      message.success(res.data.levelUp?.leveledUp ? '🎉 恭喜，宠物升级了！' : '投喂成功！');
       
       // 更新宠物状态
       const petRes = await petAPI.getMyPet();
