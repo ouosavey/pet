@@ -130,7 +130,19 @@ app.set('io', io);
 processGuard.register({ server, io });
 
 // 中间件
-app.use(helmet()); // 安全头
+// helmet 默认 CSP 含 upgrade-insecure-requests：强制浏览器把页面内所有 http 资源
+// 请求升级为 https。本系统明确支持「局域网 IP + http」部署（容器只监听纯 HTTP），
+// 该指令会让 http 站点的 JS/CSS 全部以 https 请求、握手失败，页面白屏
+// （localhost/127.0.0.1 会被浏览器豁免，所以本地测试发现不了，仅真实 IP 中招）。
+// 这里显式移除该指令，其余默认 CSP 保持不变。
+app.use(helmet({
+  contentSecurityPolicy: {
+    directives: {
+      ...helmet.contentSecurityPolicy.getDefaultDirectives(),
+      'upgrade-insecure-requests': null,
+    },
+  },
+})); // 安全头
 app.use(compression()); // 压缩响应
 app.use(cors({
   origin: function (origin, callback) {
