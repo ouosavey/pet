@@ -1,0 +1,312 @@
+#1 [class-pet internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2.09kB done
+#1 DONE 6.7s
+
+#2 [class-pet internal] load .dockerignore
+#2 transferring context: 442B done
+#2 DONE 8.9s
+
+#3 [class-pet] resolve image config for docker.io/docker/dockerfile:1
+#3 DONE 14.0s
+
+#4 [class-pet] docker-image://docker.io/docker/dockerfile:1@sha256:4edf897a3ffa55b89f906fc8cc78afdb3f1834cc9c7083565e611a8a7d5fe99e
+#4 resolve docker.io/docker/dockerfile:1@sha256:4edf897a3ffa55b89f906fc8cc78afdb3f1834cc9c7083565e611a8a7d5fe99e
+#4 resolve docker.io/docker/dockerfile:1@sha256:4edf897a3ffa55b89f906fc8cc78afdb3f1834cc9c7083565e611a8a7d5fe99e 3.9s done
+#4 sha256:4edf897a3ffa55b89f906fc8cc78afdb3f1834cc9c7083565e611a8a7d5fe99e 9.08kB / 9.08kB done
+#4 sha256:7b32114e84ca21aeb2d6f871a0b62b3a0762193f75d9afd048ee4cbe889f3148 1.13kB / 1.13kB done
+#4 sha256:528c92d70d7e39dbb3dd1c6681f6750c565c7e45b70527cda47c1a61495c1b6a 1.41kB / 1.41kB done
+#4 sha256:9d2b4f57f9e20f33279375ce25c6ff14f30f64270ed5c7b613b2b30256754f62 0B / 14.28MB 0.2s
+#4 sha256:9d2b4f57f9e20f33279375ce25c6ff14f30f64270ed5c7b613b2b30256754f62 0B / 14.28MB 5.4s
+#4 sha256:9d2b4f57f9e20f33279375ce25c6ff14f30f64270ed5c7b613b2b30256754f62 1.05MB / 14.28MB 8.4s
+#4 sha256:9d2b4f57f9e20f33279375ce25c6ff14f30f64270ed5c7b613b2b30256754f62 1.05MB / 14.28MB 13.5s
+#4 sha256:9d2b4f57f9e20f33279375ce25c6ff14f30f64270ed5c7b613b2b30256754f62 2.10MB / 14.28MB 13.9s
+#4 sha256:9d2b4f57f9e20f33279375ce25c6ff14f30f64270ed5c7b613b2b30256754f62 2.10MB / 14.28MB 18.9s
+#4 sha256:9d2b4f57f9e20f33279375ce25c6ff14f30f64270ed5c7b613b2b30256754f62 3.15MB / 14.28MB 19.6s
+#4 sha256:9d2b4f57f9e20f33279375ce25c6ff14f30f64270ed5c7b613b2b30256754f62 4.19MB / 14.28MB 24.6s
+#4 sha256:9d2b4f57f9e20f33279375ce25c6ff14f30f64270ed5c7b613b2b30256754f62 5.24MB / 14.28MB 29.3s
+#4 sha256:9d2b4f57f9e20f33279375ce25c6ff14f30f64270ed5c7b613b2b30256754f62 6.29MB / 14.28MB 32.2s
+#4 sha256:9d2b4f57f9e20f33279375ce25c6ff14f30f64270ed5c7b613b2b30256754f62 7.34MB / 14.28MB 36.5s
+#4 sha256:9d2b4f57f9e20f33279375ce25c6ff14f30f64270ed5c7b613b2b30256754f62 8.39MB / 14.28MB 39.4s
+#4 sha256:9d2b4f57f9e20f33279375ce25c6ff14f30f64270ed5c7b613b2b30256754f62 9.44MB / 14.28MB 42.4s
+#4 sha256:9d2b4f57f9e20f33279375ce25c6ff14f30f64270ed5c7b613b2b30256754f62 10.49MB / 14.28MB 45.3s
+#4 sha256:9d2b4f57f9e20f33279375ce25c6ff14f30f64270ed5c7b613b2b30256754f62 11.53MB / 14.28MB 48.8s
+#4 sha256:9d2b4f57f9e20f33279375ce25c6ff14f30f64270ed5c7b613b2b30256754f62 12.58MB / 14.28MB 51.8s
+#4 sha256:9d2b4f57f9e20f33279375ce25c6ff14f30f64270ed5c7b613b2b30256754f62 13.63MB / 14.28MB 55.6s
+#4 sha256:9d2b4f57f9e20f33279375ce25c6ff14f30f64270ed5c7b613b2b30256754f62 14.28MB / 14.28MB 57.3s done
+#4 extracting sha256:9d2b4f57f9e20f33279375ce25c6ff14f30f64270ed5c7b613b2b30256754f62
+#4 extracting sha256:9d2b4f57f9e20f33279375ce25c6ff14f30f64270ed5c7b613b2b30256754f62 0.8s done
+#4 DONE 68.3s
+
+#5 [class-pet internal] load build definition from Dockerfile
+#5 DONE 0.0s
+
+#6 [class-pet internal] load metadata for docker.io/library/node:20-alpine
+#6 DONE 6.2s
+
+#7 [class-pet internal] load .dockerignore
+#7 DONE 0.0s
+
+#8 [class-pet internal] load build context
+#8 DONE 0.0s
+
+#9 [class-pet frontend-builder 1/6] FROM docker.io/library/node:20-alpine@sha256:fb4cd12c85ee03686f6af5362a0b0d56d50c58a04632e6c0fb8363f609372293
+#9 resolve docker.io/library/node:20-alpine@sha256:fb4cd12c85ee03686f6af5362a0b0d56d50c58a04632e6c0fb8363f609372293
+#9 resolve docker.io/library/node:20-alpine@sha256:fb4cd12c85ee03686f6af5362a0b0d56d50c58a04632e6c0fb8363f609372293 3.4s done
+#9 sha256:fb4cd12c85ee03686f6af5362a0b0d56d50c58a04632e6c0fb8363f609372293 7.67kB / 7.67kB done
+#9 sha256:afdf98210b07b586eb71fa22ba2e432e058e4cd1304d31ed60888755b8c865fb 1.72kB / 1.72kB done
+#9 sha256:11cedc39e663e7c5d5cb9cc77a461a0d2adc25537b94e6831a6108f09cb2001b 6.52kB / 6.52kB done
+#9 ...
+
+#8 [class-pet internal] load build context
+#8 transferring context: 4.28MB 0.2s done
+#8 DONE 6.4s
+
+#9 [class-pet frontend-builder 1/6] FROM docker.io/library/node:20-alpine@sha256:fb4cd12c85ee03686f6af5362a0b0d56d50c58a04632e6c0fb8363f609372293
+#9 DONE 24.7s
+
+#10 [class-pet backend-deps 2/5] RUN apk add --no-cache python3 make g++
+#10 ...
+
+#11 [class-pet frontend-builder 2/6] WORKDIR /app/frontend
+#11 DONE 10.0s
+
+#12 [class-pet stage-2  2/10] RUN apk add --no-cache tzdata
+#12 ...
+
+#13 [class-pet frontend-builder 3/6] COPY frontend/package.json frontend/package-lock.json ./
+#13 DONE 6.7s
+
+#10 [class-pet backend-deps 2/5] RUN apk add --no-cache python3 make g++
+#10 ...
+
+#14 [class-pet frontend-builder 4/6] RUN npm ci --registry=https://registry.npmmirror.com
+#14 ...
+
+#12 [class-pet stage-2  2/10] RUN apk add --no-cache tzdata
+#12 33.37 (1/1) Installing tzdata (2026e-r0)
+#12 34.81 OK: 11.3 MiB in 19 packages
+#12 DONE 35.7s
+
+#14 [class-pet frontend-builder 4/6] RUN npm ci --registry=https://registry.npmmirror.com
+#14 16.29 npm warn EBADENGINE Unsupported engine {
+#14 16.29 npm warn EBADENGINE   package: '@testing-library/jest-dom@7.0.1',
+#14 16.29 npm warn EBADENGINE   required: { node: '>=22', npm: '>=6', yarn: '>=1' },
+#14 16.29 npm warn EBADENGINE   current: { node: 'v20.20.2', npm: '10.8.2' }
+#14 16.29 npm warn EBADENGINE }
+#14 ...
+
+#15 [class-pet stage-2  3/10] WORKDIR /app/backend
+#15 DONE 5.2s
+
+#10 [class-pet backend-deps 2/5] RUN apk add --no-cache python3 make g++
+#10 33.32 ( 1/29) Installing libstdc++-dev (15.2.0-r2)
+#10 ...
+
+#14 [class-pet frontend-builder 4/6] RUN npm ci --registry=https://registry.npmmirror.com
+#14 25.68 npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+#14 28.79 npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+#14 29.46 npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+#14 ...
+
+#10 [class-pet backend-deps 2/5] RUN apk add --no-cache python3 make g++
+#10 46.03 ( 2/29) Installing jansson (2.14.1-r0)
+#10 46.76 ( 3/29) Installing zstd-libs (1.5.7-r2)
+#10 48.24 ( 4/29) Installing binutils (2.45.1-r0)
+#10 ...
+
+#14 [class-pet frontend-builder 4/6] RUN npm ci --registry=https://registry.npmmirror.com
+#14 34.51 npm warn deprecated @humanwhocodes/config-array@0.13.0: Use @eslint/config-array instead
+#14 35.45 npm warn deprecated @humanwhocodes/object-schema@2.0.3: Use @eslint/object-schema instead
+#14 ...
+
+#10 [class-pet backend-deps 2/5] RUN apk add --no-cache python3 make g++
+#10 59.79 ( 5/29) Installing libgomp (15.2.0-r2)
+#10 61.15 ( 6/29) Installing libatomic (15.2.0-r2)
+#10 61.33 ( 7/29) Installing gmp (6.3.0-r4)
+#10 62.48 ( 8/29) Installing isl26 (0.26-r1)
+#10 65.47 ( 9/29) Installing mpfr4 (4.2.2-r0)
+#10 66.57 (10/29) Installing mpc1 (1.3.1-r1)
+#10 67.13 (11/29) Installing gcc (15.2.0-r2)
+#10 ...
+
+#14 [class-pet frontend-builder 4/6] RUN npm ci --registry=https://registry.npmmirror.com
+#14 57.57 npm warn deprecated eslint@8.57.1: This version is no longer supported. Please see https://eslint.org/version-support for other options.
+#14 94.52 
+#14 94.52 added 558 packages in 1m
+#14 94.52 
+#14 94.52 83 packages are looking for funding
+#14 94.52   run `npm fund` for details
+#14 94.53 npm notice
+#14 94.53 npm notice New major version of npm available! 10.8.2 -> 12.2.0
+#14 94.53 npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+#14 94.53 npm notice To update run: npm install -g npm@12.2.0
+#14 94.53 npm notice
+#14 DONE 96.1s
+
+#10 [class-pet backend-deps 2/5] RUN apk add --no-cache python3 make g++
+#10 ...
+
+#16 [class-pet frontend-builder 5/6] COPY frontend/ ./
+#16 DONE 7.4s
+
+#10 [class-pet backend-deps 2/5] RUN apk add --no-cache python3 make g++
+#10 ...
+
+#17 [class-pet frontend-builder 6/6] RUN npm run build
+#17 16.17 
+#17 16.17 > class-pet-frontend@1.0.0 build
+#17 16.17 > tsc && vite build
+#17 16.17 
+#17 97.92 vite v5.4.21 building for production...
+#17 108.5 transforming...
+#17 108.8 Browserslist: browsers data (caniuse-lite) is 7 months old. Please run:
+#17 108.8   npx update-browserslist-db@latest
+#17 108.8   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+#17 ...
+
+#10 [class-pet backend-deps 2/5] RUN apk add --no-cache python3 make g++
+#10 236.9 (12/29) Installing musl-dev (1.2.5-r23)
+#10 247.0 (13/29) Installing g++ (15.2.0-r2)
+#10 303.0 (14/29) Installing make (4.4.1-r3)
+#10 304.0 (15/29) Installing libexpat (2.8.5-r0)
+#10 305.3 (16/29) Installing libbz2 (1.0.8-r6)
+#10 305.8 (17/29) Installing libffi (3.5.2-r0)
+#10 306.7 (18/29) Installing gdbm (1.26-r0)
+#10 307.6 (19/29) Installing xz-libs (5.8.4-r0)
+#10 308.3 (20/29) Installing mpdecimal (4.0.1-r0)
+#10 309.0 (21/29) Installing ncurses-terminfo-base (6.5_p20251123-r0)
+#10 309.9 (22/29) Installing libncursesw (6.5_p20251123-r0)
+#10 311.2 (23/29) Installing libpanelw (6.5_p20251123-r0)
+#10 311.3 (24/29) Installing readline (8.3.1-r0)
+#10 312.4 (25/29) Installing sqlite-libs (3.53.4-r0)
+#10 ...
+
+#17 [class-pet frontend-builder 6/6] RUN npm run build
+#17 191.0 ✓ 5937 modules transformed.
+#17 195.0 rendering chunks...
+#17 196.9 computing gzip size...
+#17 197.5 dist/index.html                                   0.89 kB │ gzip:   0.43 kB
+#17 197.5 dist/assets/index-CJhLrUvo.css                    6.93 kB │ gzip:   2.00 kB
+#17 197.5 dist/assets/subjects-DJIGO4m_.js                  0.29 kB │ gzip:   0.30 kB
+#17 197.5 dist/assets/hooks-ZDM7ZWSF.js                     0.47 kB │ gzip:   0.32 kB
+#17 197.5 dist/assets/aiTask-DXRKmNSK.js                    0.85 kB │ gzip:   0.68 kB
+#17 197.5 dist/assets/AboutPage-ae31403M.js                 1.28 kB │ gzip:   1.14 kB
+#17 197.5 dist/assets/VersionWatcher-D2nTEZd0.js            1.35 kB │ gzip:   0.94 kB
+#17 197.5 dist/assets/StaticPageLayout-CqxD1WAz.js          1.66 kB │ gzip:   0.83 kB
+#17 197.5 dist/assets/answerDisplay-B1bFwYKJ.js             2.13 kB │ gzip:   1.09 kB
+#17 197.5 dist/assets/_common-BCebE2hU.js                   2.37 kB │ gzip:   1.34 kB
+#17 197.5 dist/assets/HelpPage-DqGnTzml.js                  2.46 kB │ gzip:   1.55 kB
+#17 197.5 dist/assets/PrivacyPage-B9qvr13V.js               2.48 kB │ gzip:   1.61 kB
+#17 197.5 dist/assets/DirectoryLayout-DymC82qC.js           2.57 kB │ gzip:   1.27 kB
+#17 197.5 dist/assets/CelebrationAnimation-CoOeKl7y.js      2.59 kB │ gzip:   1.12 kB
+#17 197.5 dist/assets/ContactPage-CAiCc_y_.js               2.74 kB │ gzip:   1.38 kB
+#17 197.5 dist/assets/TeachersPage-mB0N_NKl.js              3.02 kB │ gzip:   1.53 kB
+#17 197.5 dist/assets/CardRedeem-C3H9DLM8.js                3.29 kB │ gzip:   1.77 kB
+#17 197.5 dist/assets/ClassesPage-CFb6MZQI.js               3.99 kB │ gzip:   1.90 kB
+#17 197.5 dist/assets/Login-gbpSAUVn.js                     4.60 kB │ gzip:   2.22 kB
+#17 197.5 dist/assets/StudentsPage-CI0-XxKH.js              4.84 kB │ gzip:   2.44 kB
+#17 197.5 dist/assets/SchoolsPage-L32PwdWe.js               5.12 kB │ gzip:   2.25 kB
+#17 197.5 dist/assets/TeacherDashboard-S-A3wliY.js          5.84 kB │ gzip:   2.24 kB
+#17 197.5 dist/assets/Notifications-BvOAvR2L.js             6.49 kB │ gzip:   2.84 kB
+#17 197.5 dist/assets/ClassHome-CN8fz9h_.js                 6.75 kB │ gzip:   2.84 kB
+#17 197.5 dist/assets/StudentDashboard-Bpb8s_oI.js          7.69 kB │ gzip:   2.78 kB
+#17 197.5 dist/assets/Register-DtIJ0S4K.js                  7.99 kB │ gzip:   3.77 kB
+#17 197.5 dist/assets/vendor-react-kF-aRxYe.js              8.24 kB │ gzip:   3.10 kB
+#17 197.5 dist/assets/ClassPetsPage-BC-aUitI.js             9.50 kB │ gzip:   4.07 kB
+#17 197.5 dist/assets/Profile-BbQwubcg.js                   9.88 kB │ gzip:   4.35 kB
+#17 197.5 dist/assets/AdminHome-Ss_RmS45.js                 9.97 kB │ gzip:   3.57 kB
+#17 197.5 dist/assets/CardManager-DyjoaYqR.js              13.60 kB │ gzip:   5.23 kB
+#17 197.5 dist/assets/ClassDashboard-Cd6UjxHj.js           17.20 kB │ gzip:   5.91 kB
+#17 197.5 dist/assets/vendor-react-router-CSpEfFEz.js      21.61 kB │ gzip:   8.05 kB
+#17 197.5 dist/assets/Workspace-B_exJVEO.js                34.97 kB │ gzip:  11.84 kB
+#17 197.5 dist/assets/vendor-socket-BcxXcwBL.js            41.57 kB │ gzip:  13.00 kB
+#17 197.5 dist/assets/SocialHub-B_XEOQvY.js                43.70 kB │ gzip:  12.15 kB
+#17 197.5 dist/assets/index-CPOYbJKk.js                    50.11 kB │ gzip:  15.59 kB
+#17 197.5 dist/assets/vendor-utils-C0bSNFxv.js             59.89 kB │ gzip:  23.43 kB
+#17 197.5 dist/assets/PetCenter-DaGLE-gf.js                61.10 kB │ gzip:  17.37 kB
+#17 197.5 dist/assets/ClassroomQuiz-BYkCScuk.js            91.66 kB │ gzip:  33.77 kB
+#17 197.5 dist/assets/Admin-B9kyp4gh.js                   113.47 kB │ gzip:  37.27 kB
+#17 197.5 dist/assets/vendor-react-dom-CX9OE-W6.js        134.56 kB │ gzip:  43.37 kB
+#17 197.5 dist/assets/index-BPDz1u2k.js                   216.78 kB │ gzip: 139.26 kB
+#17 197.5 dist/assets/StudyCenter-BwVlxlYe.js             241.20 kB │ gzip:  74.53 kB
+#17 197.5 dist/assets/xlsx-D_0l8YDs.js                    429.03 kB │ gzip: 143.08 kB
+#17 197.5 dist/assets/vendor-antd-CsHxW3Gz.js           1,311.95 kB │ gzip: 409.63 kB
+#17 197.5 dist/assets/vendor-antv-BEZoQ8Yv.js           1,469.86 kB │ gzip: 434.45 kB
+#17 197.5 
+#17 197.5 (!) Some chunks are larger than 800 kB after minification. Consider:
+#17 197.5 - Using dynamic import() to code-split the application
+#17 197.5 - Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+#17 197.5 - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+#17 197.5 ✓ built in 1m 29s
+#17 DONE 201.2s
+
+#10 [class-pet backend-deps 2/5] RUN apk add --no-cache python3 make g++
+#10 317.5 (26/29) Installing python3 (3.12.15-r0)
+#10 346.5 (27/29) Installing python3-pycache-pyc0 (3.12.15-r0)
+#10 357.9 (28/29) Installing pyc (3.12.15-r0)
+#10 357.9 (29/29) Installing python3-pyc (3.12.15-r0)
+#10 357.9 Executing busybox-1.37.0-r30.trigger
+#10 358.0 OK: 301.3 MiB in 47 packages
+#10 DONE 359.5s
+
+#18 [class-pet backend-deps 3/5] WORKDIR /app/backend
+#18 DONE 7.6s
+
+#19 [class-pet backend-deps 4/5] COPY backend/package.json backend/package-lock.json ./
+#19 DONE 6.2s
+
+#20 [class-pet backend-deps 5/5] RUN npm ci --registry=https://registry.npmmirror.com
+#20 15.85 npm warn EBADENGINE Unsupported engine {
+#20 15.85 npm warn EBADENGINE   package: 'openai@7.32.0',
+#20 15.85 npm warn EBADENGINE   required: { node: '>=22.0.0' },
+#20 15.85 npm warn EBADENGINE   current: { node: 'v20.20.2', npm: '10.8.2' }
+#20 15.85 npm warn EBADENGINE }
+#20 25.00 npm warn deprecated multer@1.4.5-lts.2: Multer 1.x is impacted by a number of vulnerabilities, which have been patched in 2.x. You should upgrade to the latest 2.x version.
+#20 26.21 npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+#20 27.00 npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+#20 41.86 
+#20 41.86 added 480 packages in 29s
+#20 41.86 
+#20 41.86 62 packages are looking for funding
+#20 41.86   run `npm fund` for details
+#20 41.87 npm notice
+#20 41.87 npm notice New major version of npm available! 10.8.2 -> 12.2.0
+#20 41.87 npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+#20 41.87 npm notice To update run: npm install -g npm@12.2.0
+#20 41.87 npm notice
+#20 DONE 43.2s
+
+#21 [class-pet stage-2  4/10] COPY --from=backend-deps /app/backend/node_modules ./node_modules
+#21 DONE 10.5s
+
+#22 [class-pet stage-2  5/10] COPY backend/package.json backend/knexfile.js backend/VERSION ./
+#22 DONE 6.1s
+
+#23 [class-pet stage-2  6/10] COPY backend/src ./src
+#23 DONE 5.7s
+
+#24 [class-pet stage-2  7/10] COPY backend/migrations ./migrations
+#24 DONE 5.2s
+
+#25 [class-pet stage-2  8/10] COPY backend/seeds ./seeds
+#25 DONE 4.6s
+
+#26 [class-pet stage-2  9/10] COPY backend/scripts ./scripts
+#26 DONE 5.5s
+
+#27 [class-pet stage-2 10/10] COPY --from=frontend-builder /app/frontend/dist ./public
+#27 DONE 4.6s
+
+#28 [class-pet] exporting to image
+#28 exporting layers
+#28 exporting layers 18.1s done
+#28 writing image sha256:5a1d33e3feae6f7adb96a63988273a1636a4611e4c9bb12f4aad0719972f2122 0.1s done
+#28 naming to docker.io/library/class-pet:latest
+#28 naming to docker.io/library/class-pet:latest 0.5s done
+#28 DONE 18.6s
+ Network class-pet_default  Creating
+ Network class-pet_default  Created
+ Container class-pet  Creating
+ Container class-pet  Created
+ Container class-pet  Starting
+Error response from daemon: driver failed programming external connectivity on endpoint class-pet (6952f5487e2c0ee5c833ccb34b655245c69ea11e497464a92e2e200d82aaa59f): Bind for 0.0.0.0:3333 failed: port is already allocated
