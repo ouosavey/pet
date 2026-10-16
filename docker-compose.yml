@@ -1,0 +1,28 @@
+services:
+  class-pet:
+    # 在 DPanel 的「Compose 编排」里使用时，context 必须改成 NAS 上的宿主机绝对路径，
+    # 例如代码放在群晖 /volume1/docker/class-pet 时写：context: /volume1/docker/class-pet
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: class-pet:latest
+    container_name: class-pet
+    restart: unless-stopped
+    ports:
+      - "3000:3000"          # 左边改成 NAS 上想对外暴露的端口
+    environment:
+      NODE_ENV: production
+      PORT: "3000"
+      TZ: Asia/Shanghai
+      # ---- 以下按实际修改 ----
+      # JWT 签名密钥：生产必须换成随机长串（node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"）
+      JWT_SECRET: please-change-me-to-a-random-string
+      # 浏览器实际访问地址（协议+IP+端口必须与地址栏完全一致，否则接口被 CORS 拦截；多个用逗号分隔）
+      FRONTEND_URL: http://192.168.1.10:3000
+      # AI 大模型（不填则 AI 功能不可用；也可登录管理后台后在「AI 设置」里配置）
+      AI_API_KEY: ""
+      AI_BASE_URL: https://ark.cn-beijing.volces.com/api/v3
+      AI_MODEL: doubao-seed-2-0-pro-260215
+    volumes:
+      # 数据库 + 上传文件的持久化目录，改成本机实际路径（所有数据都在这个目录里，备份它即可）
+      - /volume1/docker/class-pet/data:/app/backend/data

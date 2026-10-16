@@ -73,3 +73,6 @@ temp/
 # 发布产物（由 scripts/release.mjs 生成，不入库）
 release/
 backend/tmp-bd.err
+
+# 打包给 NAS 部署用的临时压缩包（构建产物，不入库）
+pet-dpanel-deploy.zip
